@@ -1,0 +1,49 @@
+/* INFORMACION */
+.mainInfo {
+  margin: 110px 10% 0 10%;
+  text-align: center;
+  .sec1Info {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    .contenedorImage1Info {
+      text-align: center;
+    }
+    li {
+      list-style: disc;
+      margin-bottom: 5px;
+    }
+  }
+  .image1Info {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+    margin-bottom: 10px;
+  }
+}
+.sec2Info {
+  margin-top: 8%;
+  padding: 2%;
+  background-color: $verde-oscuro;
+  width: 100%;
+  justify-content: center;
+    .parrafo2Info{
+      display: flex;
+      align-items: center;
+    }
+}
+.h2Info{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.InfoAromas {
+  display: flex;
+  justify-content: space-evenly;
+  li {
+    list-style: square;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+}
+/* FIN INFORMACION */

@@ -1,0 +1,48 @@
+/*CUERPO*/
+
+body {
+    background-color: #bfc7b9;
+   
+  }
+  .h1Index{
+    margin: 15px 0px 20px 0px;
+  }
+  .carousel-item {
+    height: 100vh;
+  }
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+  }
+  .grid-main {
+    width: 100%;
+      .parrafo-index{
+        margin-bottom: 25px;
+      }
+  }
+  .row {
+    margin-bottom: 36px;
+  }
+  .col {
+    display: flex;
+    align-items: center;
+  }
+  .image-index {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+  }
+  .imageJuanse{
+    text-align: center;
+  }
+  .grid-main p {
+    text-align: center;
+  }
+ 
+   @media only screen and (max-width:768px) {
+     .alRevez{
+      display: flex;
+      flex-direction: column-reverse;
+     }
+   }
+  /*FIN CUERPO*/

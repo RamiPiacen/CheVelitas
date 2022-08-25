@@ -1,0 +1,24 @@
+/*FOOTER*/
+
+.footer{
+    background-color: #85907a;
+    width: 100%;
+  }
+  .my-4{
+    margin-bottom: 0 !important;
+  }
+  .text-muted{
+    color: blanchedalmond !important;
+  }
+  .fab{
+    color: black;
+    font-size: 1.75rem;
+      &:hover{
+        transform: scale(1.1);
+        transition: all 0.5s;
+      }
+  }
+  .text-muted{
+    color: black !important;
+  }
+  /*FIN FOOTER*/
